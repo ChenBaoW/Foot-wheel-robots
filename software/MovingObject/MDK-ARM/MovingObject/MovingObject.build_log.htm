@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: aiswy 8615118923126, aiswuy, LIC=47GU5-GPL8Z-MMU9I-T3W4V-YZSPV-4JW1T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.15.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+F:\DIY\MovingObject\MDK-ARM\MovingObject.uvprojx
+Project File Date:  05/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'MovingObject'
+compiling main.c...
+../MK/motor/motor.h(28): warning:  #1295-D: Deprecated declaration motor_init - give arg types
+  void motor_init();
+../MK/motor/motor.h(29): warning:  #1295-D: Deprecated declaration motor_left_speed_CallBack - give arg types
+  void motor_left_speed_CallBack();
+../MK/motor/motor.h(30): warning:  #1295-D: Deprecated declaration motor_right_speed_CallBack - give arg types
+  void motor_right_speed_CallBack();
+../MK/servo/servo.h(17): warning:  #1295-D: Deprecated declaration servo_jump - give arg types
+  void servo_jump();
+../MK/telecontrols/telecontrols.h(42): warning:  #1295-D: Deprecated declaration telecontrols_init - give arg types
+  void telecontrols_init();
+../MK/telecontrols/telecontrols.h(43): warning:  #1295-D: Deprecated declaration telecontrols_CallBack - give arg types
+  void telecontrols_CallBack();
+../Src/main.c(81): warning:  #177-D: variable "i"  was declared but never referenced
+   	int i = 0;
+../Src/main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=35560 RO-data=3944 RW-data=248 ZI-data=2032  
+FromELF: creating hex file...
+"MovingObject\MovingObject.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F10x_DFP.2.0.3.pack
+                GigaDevice.GD32F10x_DFP.2.0.3
+                GigaDevice GD32F10x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_MovingObject
+  D:/MDK5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/MDK5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

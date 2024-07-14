@@ -2,7 +2,7 @@
  * @Author: ChenBaoW 87351112+ChenBaoW@users.noreply.github.com
  * @Date: 2024-04-23 19:43:34
  * @LastEditors: ChenBaoW 87351112+ChenBaoW@users.noreply.github.com
- * @LastEditTime: 2024-07-10 23:09:56
+ * @LastEditTime: 2024-07-13 18:53:52
  * @FilePath: \sender\src\main.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -17,7 +17,7 @@
 #define PS1_Y     33  //左摇杆y轴引脚
 #define PS2_X     34  //右摇杆X轴引脚
 #define PS2_Y     35  //右摇杆y轴引脚
-#define RESOLUTION 12 /
+#define RESOLUTION 12 //
 
 
 //模式选择
